@@ -152,6 +152,86 @@ const glosarries = [
     reference:
       "https://about.gitlab.com/topics/ci-cd/continuous-integration-server/#:~:text=What%20does%20a%20CI%20server,the%20results%20of%20the%20build.",
   },
+    {
+    id: 21,
+    term: "Containerization",
+    description:
+      "Containerization packages applications and dependencies together in a container, providing consistency across different environments.",
+    reference:
+      "https://www.geeksforgeeks.org/containerization-using-docker/"
+  },
+  {
+    id: 22,
+    term: "Docker Swarm",
+    description:
+      "Docker Swarm is a clustering and orchestration solution for Docker, simplifying containerized application deployment and management.",
+    reference:
+      "https://docs.docker.com/engine/swarm/"
+  },
+  {
+    id: 23,
+    term: "Docker Hub",
+    description:
+      "Docker Hub is a cloud-based registry service for Docker container images, making it easy to store, manage, and share images.",
+    reference:
+      "https://www.geeksforgeeks.org/what-is-docker-hub/"
+  },
+  {
+    id: 24,
+    term: "Docker Compose",
+    description:
+      "Docker Compose defines and runs multi-container Docker applications using a YAML file, allowing complex applications to be defined with multiple services and configurations.",
+    reference:
+      "https://www.howtogeek.com/devops/what-is-docker-compose-and-how-do-you-use-it/"
+  },
+  {
+    id: 25,
+    term: "Orchestration",
+    description:
+      "Orchestration automates the management, deployment, scaling, and operation of containers and services, ensuring proper deployment and connection.",
+    reference:
+      "https://www.redhat.com/en/topics/automation/what-is-orchestration"
+  },
+  {
+    id: 26,
+    term: "Kubernetes",
+    description:
+      "Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.",
+    reference:
+      "https://kubernetes.io/docs/concepts/overview/"
+  },
+  {
+    id: 27,
+    term: "Continuous Deployment",
+    description:
+      "Continuous Deployment (CD) automatically deploys code changes passing automated testing to production environments, reducing manual interventions.",
+    reference:
+      "https://www.ibm.com/topics/continuous-deployment"
+  },
+  {
+    id: 28,
+    term: "Service Discovery",
+    description:
+      "Service Discovery automatically detects and registers services in containerized applications, managing network communication between services.",
+    reference:
+      "https://middleware.io/blog/service-discovery/"
+  },
+  {
+    id: 29,
+    term: "Blue-Green Deployment",
+    description:
+      "Blue-Green Deployment maintains two identical environments, deploying the new version to the green environment and switching traffic after testing.",
+    reference:
+      "https://www.redhat.com/en/topics/devops/what-is-blue-green-deployment"
+  },
+  {
+    id: 30,
+    term: "Container Registry",
+    description:
+      "Blue-Green Deployment maintains two identical environments, deploying the new version to the green environment and switching traffic after testing.",
+    reference:
+      "https://www.redhat.com/en/topics/cloud-native-apps/what-is-a-container-registry"
+  },  
   ];
 
   module.exports = { glosarries };
