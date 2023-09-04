@@ -232,6 +232,86 @@ const glosarries = [
     reference:
       "https://www.redhat.com/en/topics/cloud-native-apps/what-is-a-container-registry"
   },  
+  {
+    id: 31,
+    term: "Infrastructure as Code (IaC)",
+    description:
+      "The practice of defining and provisioning infrastructure resources using code instead of manual processes. Terraform is an IaC tool.",
+    reference:
+      "https://learn.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code"
+  },
+  {
+    id: 32,
+    term: "Terraform",
+    description:
+      "An open-source IaC tool by HashiCorp used for defining and provisioning infrastructure resources, such as virtual machines, networks, and storage, in a declarative manner.",
+    reference:
+      "https://developer.hashicorp.com/terraform/intro"
+  },
+  {
+    id: 33,
+    term: "State File",
+    description:
+      "A JSON or binary file created and managed by Terraform that keeps track of the current state of your infrastructure. It's used to plan and apply changes.",
+    reference:
+      "https://www.easydeploy.io/blog/terraform-state-file/"
+  },
+  {
+    id: 34,
+    term: "Remote State",
+    description:
+      "Storing the Terraform state file in a remote backend, such as AWS S3 or HashiCorp Consul, for better collaboration and state management.",
+    reference:
+      "https://developer.hashicorp.com/terraform/language/state/remote"
+  },
+  {
+    id: 35,
+    term: "HCL (HashiCorp Configuration Language)",
+    description:
+      "The language used to write Terraform configuration files, which are human-readable and machine-friendly.",
+    reference:
+      "https://www.linode.com/docs/guides/introduction-to-hcl/"
+  },
+  {
+    id: 36,
+    term: "Resource Block",
+    description:
+      "A block in Terraform configuration files that defines a resource, including its type and settings.",
+    reference:
+      "https://developer.hashicorp.com/terraform/language/resources"
+  },
+  {
+    id: 37,
+    term: "Terraform Module Registry",
+    description:
+      "A public repository of pre-built Terraform modules that can be reused in various configurations.",
+    reference:
+      "https://developer.hashicorp.com/terraform/internals/module-registry-protocol"
+  },
+  {
+    id: 38,
+    term: "Terraform Cloud",
+    description:
+      "A managed service by HashiCorp for collaborating on Terraform configurations and managing state files in a secure and centralized manner.",
+    reference:
+      "https://www.hashicorp.com/resources/what-is-terraform-cloud"
+  },  
+  {
+    id: 39,
+    term: "Terraform Variable",
+    description:
+      "A parameter in Terraform configurations that allows you to pass values or settings to your infrastructure code dynamically, making configurations more flexible and reusable.",
+    reference:
+      "https://developer.hashicorp.com/terraform/language/values/variables"
+  },
+  {
+    id: 40,
+    term: "Terraform Output",
+    description:
+      "A way to expose values from your Terraform configuration, making them accessible for reference or use in other configurations or scripts.",
+    reference:
+      "https://developer.hashicorp.com/terraform/language/values/outputs"
+  },
   ];
 
   module.exports = { glosarries };
