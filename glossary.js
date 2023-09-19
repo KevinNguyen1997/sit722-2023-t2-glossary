@@ -312,6 +312,84 @@ const glosarries = [
     reference:
       "https://developer.hashicorp.com/terraform/language/values/outputs"
   },
+    id: 41,
+    term: "Master Node",
+    description:
+      "The control plane of a Kubernetes cluster, responsible for managing and scheduling workloads.",
+    reference:
+      "https://www.investopedia.com/terms/m/master-node-cryptocurrency.asp"
+  },  
+  {
+    id: 42,
+    term: "Worker Node",
+    description:
+      "A node in a Kubernetes cluster responsible for running containerized applications.",
+    reference:
+      "https://www.startkubernetes.com/blog/k8s_master_and_worker_nodes"
+  },  
+  {
+    id: 43,
+    term: "Kubelet",
+    description:
+      "The agent running on each worker node, responsible for maintaining the containers' health and communicating with the control plane.",
+    reference:
+      "https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/"
+  },  
+  {
+    id: 44,
+    term: "Kube Proxy",
+    description:
+      "A network proxy on each node that maintains network rules to allow communication to and from the pods.",
+    reference:
+      "https://kubernetes.io/docs/reference/command-line-tools-reference/kube-proxy/"
+  },  
+  {
+    id: 45,
+    term: "StatefulSet",
+    description:"A Kubernetes resource for managing stateful applications, ensuring stable network identities and storage.",
+    reference:
+      "https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/"
+  },  
+  {
+    id: 46,
+    term: "Helm",
+    description:
+      " A package manager for Kubernetes that simplifies the deployment and management of applications using charts.",
+    reference:
+      "https://helm.sh/"
+  },  
+  {
+    id: 47,
+    term: "Prometheus",
+    description:
+      "An open-source monitoring and alerting toolkit often used with Kubernetes to collect and analyze metrics from applications and infrastructure.",
+    reference:
+      "https://www.educba.com/kubernetes-prometheus/"
+  },  
+  {
+    id: 48,
+    term: "Istio",
+    description:
+      "An open-source service mesh platform for connecting, securing, and managing microservices in a Kubernetes environment.",
+    reference:
+      "https://istio.io/"
+  },  
+  {
+    id: 49,
+    term: "Ingress",
+    description:
+      "A Kubernetes resource that manages external access to services, typically acting as an HTTP/HTTPS router.",
+    reference:
+      "https://kubernetes.io/docs/concepts/services-networking/ingress/"
+  },  
+  {
+    id: 50,
+    term: "Container Runtime",
+    description:
+      "The software responsible for running containers on a node, such as Docker or containerd.",
+    reference:
+      "https://opensource.com/article/21/9/container-runtimes"
+  },  
   ];
 
   module.exports = { glosarries };
